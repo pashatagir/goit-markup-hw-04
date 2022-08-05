@@ -344,6 +344,15 @@ img {
   padding-bottom: 60px;
 }
 
+.foot {
+  display: flex;
+  align-items: baseline;
+}
+
+.left-foot {
+  margin-right: 70px;
+}
+
 .address-section {
   margin-top: 20px;
 }
@@ -363,6 +372,37 @@ img {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+}
+
+.action-title {
+  margin-bottom: 20px;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--normal-color);
+}
+
+.action-list {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.action-list .soc-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50px;
+  fill: var(--normal-color);
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.action-list .soc-link:hover,
+.action-list .soc-link:focus {
+  background-color: currentColor;
 }
 
 /* -------------portfolio-------------- */
