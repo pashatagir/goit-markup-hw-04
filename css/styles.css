@@ -5,6 +5,7 @@
   --primary-color: #212121;
   --minor-color: #757575;
   --secondary-color: #f5f4fa;
+  --color-icon: #afb1b8;
 }
 
 body {
@@ -67,6 +68,7 @@ ul {
   border: none;
   cursor: pointer;
   font-size: 16px;
+  padding: 0;
 }
 
 .section {
@@ -274,7 +276,8 @@ img {
 }
 
 .our-team-names {
-  padding: 30px 0px;
+  padding: 30px 0px 0px 0px;
+  margin-bottom: 16px;
 }
 
 .our-team-subtitle {
@@ -290,6 +293,24 @@ img {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--minor-color);
+}
+
+.soc-list {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 30px;
+}
+
+.soc-button {
+  width: 44px;
+  height: 44px;
+  border-radius: 50px;
+  background-color: var(--normal-color);
+  fill: var(--color-icon);
+}
+
+.soc-button:hover {
+  background-color: var(--accent-color);
 }
 
 /* ----------------footer-------------------- */
