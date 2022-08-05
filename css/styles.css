@@ -126,7 +126,7 @@ ul {
   font-style: normal;
   color: var(--minor-color);
   display: flex;
-  fill: currentColor;
+  fill: currentColor; /* add color icon tel and mailto */
 }
 
 .current {
@@ -134,13 +134,9 @@ ul {
 }
 
 .contacts-icon-tel {
-  width: 10px;
-  height: 16px;
   margin-right: 10px;
 }
 .contacts-icon-mail {
-  width: 16px;
-  height: 12px;
   margin-right: 10px;
 }
 
@@ -205,11 +201,6 @@ ul {
   height: 120px;
   border-radius: 4px;
   padding: 25px 100px;
-}
-
-.benefits-icon {
-  width: 70px;
-  height: 70px;
 }
 
 .benefits-subtitle {
