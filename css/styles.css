@@ -25,6 +25,14 @@ ul {
   padding-left: 0;
 }
 
+.title {
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin-bottom: 50px;
+}
+
 .container {
   width: 1200px;
   padding: 0px 15px;
@@ -225,13 +233,6 @@ ul {
 .what-we-do {
   padding-top: 0;
 }
-.what-we-do-title {
-  font-size: 36px;
-  line-height: 1.17;
-  text-align: center;
-  letter-spacing: 0.03em;
-  margin-bottom: 50px;
-}
 
 .what-we-do-list {
   display: flex;
@@ -267,17 +268,8 @@ img {
   border-radius: 0px 0px 4px 4px;
 }
 
-.our-team-title {
-  font-size: 36px;
-  line-height: 1.17;
-  text-align: center;
-  letter-spacing: 0.03em;
-  margin-bottom: 50px;
-}
-
 .our-team-names {
-  padding: 30px 0px 0px 0px;
-  margin-bottom: 16px;
+  padding: 30px 0px;
 }
 
 .our-team-subtitle {
@@ -292,25 +284,30 @@ img {
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
+  margin-bottom: 16px;
   color: var(--minor-color);
 }
 
 .soc-list {
   display: flex;
   justify-content: center;
-  padding-bottom: 30px;
+  gap: 10px;
 }
 
-.soc-button {
+.soc-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 44px;
   height: 44px;
   border-radius: 50px;
-  background-color: var(--normal-color);
   fill: var(--color-icon);
 }
 
-.soc-button:hover {
-  background-color: var(--accent-color);
+.soc-link:hover,
+.soc-link:focus {
+  fill: var(--normal-color);
+  background-color: currentColor;
 }
 
 /* ----------------footer-------------------- */
