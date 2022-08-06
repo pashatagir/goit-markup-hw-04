@@ -134,16 +134,14 @@ ul {
   font-style: normal;
   color: var(--minor-color);
   display: flex;
-  fill: currentColor; /* add color icon tel and mailto */
+  fill: currentColor;
 }
 
 .current {
   color: var(--accent-color);
 }
 
-.contacts-icon-tel {
-  margin-right: 10px;
-}
+.contacts-icon-tel,
 .contacts-icon-mail {
   margin-right: 10px;
 }
