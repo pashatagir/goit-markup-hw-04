@@ -60,7 +60,7 @@ ul {
 
 .link {
   text-decoration: none;
-  color: inherit;
+  color: currentColor;
   font-size: 14px;
 }
 
